@@ -1,4 +1,7 @@
-.container {
+/* import for roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.row1, .row2, .row3, .row4 {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -8,10 +11,16 @@
     font-size: 100px;
     margin: 10px;
     text-align: center;
+    font-family: 'Roboto';
 }
 
 button {
     text-align: center;
-    width: 30px;
-    height: 20px;
+    width: 70px;
+    height: 70px;
+    margin: 1px;
+    border-radius: 50%;
+    font-size: 100%;
+    border: 1px solid aliceblue;
+    background-color: aliceblue;
 }
