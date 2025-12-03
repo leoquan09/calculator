@@ -1,7 +1,7 @@
 /* import for roboto font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-.row1, .row2, .row3, .row4 {
+.row1, .row2, .row3, .row4, .row5 {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;

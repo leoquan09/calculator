@@ -33,7 +33,11 @@ function calculate() {
             result = past - current;
             break;
         case '÷':
-            result = past / current;
+            if (current === 0) { 
+                result = 'why u tryna ruin it' 
+            } else {
+                result = past / current;
+            }
             break;
         case 'x':
             result = past * current;
